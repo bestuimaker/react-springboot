@@ -1,4 +1,4 @@
-package com.insurance.motor.restservice;
+package com.insurance.motor.greeting;
 
 public class Greeting {
 

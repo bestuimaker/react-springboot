@@ -1,4 +1,4 @@
-package com.insurance.motor.restservice;
+package com.insurance.motor.greeting;
 
 import java.util.concurrent.atomic.AtomicLong;
 
