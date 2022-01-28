@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class SalesOrderController {
 
-	@CrossOrigin(origins = "http://localhost:3000")
 	@GetMapping("/sales")	
 	public List<SalesOrder> GetAllSalesOrder() {
 		return SalesOrderService.GetAllSalesOrder();

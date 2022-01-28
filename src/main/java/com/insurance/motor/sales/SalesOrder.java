@@ -2,6 +2,8 @@ package com.insurance.motor.sales;
 
 import java.util.List;
 
+import com.insurance.motor.product.Product;
+
 public class SalesOrder {
 
 	public int orderID;

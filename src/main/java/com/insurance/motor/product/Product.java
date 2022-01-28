@@ -1,4 +1,4 @@
-package com.insurance.motor.sales;
+package com.insurance.motor.product;
 
 public class Product {
 	
